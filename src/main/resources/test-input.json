@@ -1,0 +1,18 @@
+{
+  "webhook": "https://bfhldevapigw.healthrx.co.in/hiring/testWebhook",
+  "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJyZWdObyI6IlJBMjIxMTAwMzA1MDAwMyIsIm5hbWUiOiJMYWtzaGFyYWogSmhhIiwiZW1haWwiOiJsajAyMDZAc3JtaXN0LmVkdS5pbiIsInN1YiI6IndlYmhvb2stdXNlciIsImlhdCI6MTc0NTU3ODYzNywiZXhwIjoxNzQ1NTc5NTM3fQ.F_3wJ8H-g1p4dNOsqs4UnOavxOu0Oo-741sCBUOYldY",
+  "data": {
+    "users": {
+      "findId": 1,
+      "n": 2,
+      "users": [
+        {"id": 1, "name": "Alice", "follows": [2, 3]},
+        {"id": 2, "name": "Bob", "follows": [4]},
+        {"id": 3, "name": "Charlie", "follows": [4, 5]},
+        {"id": 4, "name": "David", "follows": [6]},
+        {"id": 5, "name": "Eva", "follows": [6]},
+        {"id": 6, "name": "Frank", "follows": []}
+      ]
+    }
+  }
+}
